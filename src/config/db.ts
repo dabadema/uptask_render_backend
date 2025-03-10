@@ -8,7 +8,7 @@ export const connectDB = async () => {
         const url = `${connection.host}:${connection.port}`;
         console.log(colors.magenta.bold(`MongoDB connected in: ${url}`));
     } catch (error) {
-        console.log(colors.red.bold(`Error connecting to MongoDB ${error.message}`));
+        console.log(colors.red.bold(`Error connecting to MongoDBBB ${error.message}`));
         exit(1);
     }
 };
