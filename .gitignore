@@ -8,7 +8,6 @@
 
 # Dependencies
 /node_modules
-/dist
 /build
 
 # Logs
@@ -37,7 +36,6 @@ Thumbs.db
 
 # TypeScript
 *.tsbuildinfo
-/dist
 /coverage
 
 # Optional npm cache directory
