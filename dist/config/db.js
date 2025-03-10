@@ -14,7 +14,7 @@ const connectDB = async () => {
         console.log(colors_1.default.magenta.bold(`MongoDB connected in: ${url}`));
     }
     catch (error) {
-        console.log(colors_1.default.red.bold('Error connecting to MongoDB'));
+        console.log(colors_1.default.red.bold(`Error connecting to MongoDB ${error.message}`));
         (0, node_process_1.exit)(1);
     }
 };
